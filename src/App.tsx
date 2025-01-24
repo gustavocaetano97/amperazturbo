@@ -15,10 +15,10 @@ function App() {
   }, []);
 
   const storySteps = [
-    { icon: Target, title: "Acquisition", description: "Attract public attention" },
-    { icon: Heart, title: "Engagement", description: "Build interest and trust" },
-    { icon: DollarSign, title: "Monetization", description: "Make sales" },
-    { icon: Repeat, title: "Retention", description: "Keep customers buying" }
+    { icon: Target, title: "Aquisição", description: "Atraia a atenção do público" },
+    { icon: Heart, title: "Engajamento", description: "Crie interesse e vendas" },
+    { icon: DollarSign, title: "Monetização", description: "Realize vendas" },
+    { icon: Repeat, title: "Retenção", description: "Matenha os clientes indicando" }
   ];
 
   const testimonials = [
@@ -28,23 +28,23 @@ function App() {
   ];
 
   const services = [
-    { 
-      icon: TrendingUp, 
+    {
+      icon: TrendingUp,
       title: "Atraia os clientes certos",
       description: "Atraia os clientes certos para o seu time de atendimento."
     },
-    { 
-      icon: Users2, 
+    {
+      icon: Users2,
       title: "Consultoria especializada",
       description: "Receba uma consultoria para estruturação comercial."
     },
-    { 
-      icon: LineChart, 
+    {
+      icon: LineChart,
       title: "Dados em tempo real",
       description: "Tenha previsibilidade e calcule o retorno do seu investimento com dados ao vivo."
     },
-    { 
-      icon: ClipboardCheck, 
+    {
+      icon: ClipboardCheck,
       title: "Acompanhamento contínuo",
       description: "Acompanhamento de perto para testar novas estratégias"
     }
@@ -89,7 +89,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="min-h-screen relative flex items-center justify-center overflow-hidden pt-20">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: 'url("https://images.unsplash.com/photo-1492571350019-22de08371fd3?auto=format&fit=crop&q=80")',
@@ -111,9 +111,9 @@ function App() {
               </button>
             </div>
             <div className="relative h-[500px] w-full rounded-2xl overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a" 
-                alt="Business professional" 
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
+                alt="Business professional"
                 className="absolute inset-0 w-full h-full object-cover rounded-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -136,10 +136,10 @@ function App() {
               Marketing de crescimento é usar tráfego de pago, influenciadores e inteligência de mercado para atrair a pessoa certa, no momento certo com a mensagem certa.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {services.map((service, index) => (
-              <div 
+              <div
                 key={index}
                 className="p-8 rounded-xl bg-gradient-to-br from-[#300334]/30 to-black/30 border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 transform hover:-translate-y-1 group"
               >
@@ -166,13 +166,13 @@ function App() {
               Como?
             </h2>
             <p className="text-xl text-gray-300 mb-4">
-              There is a scientific method so that your company Never Stops Selling
+              Há um método científico para que você NUNCA PARE DE VENDER
             </p>
             <p className="text-lg text-gray-400">
-              If you don't follow it, it won't move
+              Se você não fizer isso, vai demorar para CRESCER
             </p>
           </div>
-          
+
           <div className="max-w-6xl mx-auto">
             <div className="relative">
               <div className="absolute top-1/2 left-8 right-8 h-1 bg-yellow-400/20 -translate-y-1/2"></div>
@@ -204,11 +204,11 @@ function App() {
           <div className="relative">
             <div className="flex space-x-4 items-center justify-center">
               {testimonials.map((testimonial, index) => (
-                <div 
+                <div
                   key={index}
                   className={`w-72 aspect-[9/16] transition-all duration-500 transform ${
-                    index === activeVideo 
-                      ? 'scale-100 opacity-100' 
+                    index === activeVideo
+                      ? 'scale-100 opacity-100'
                       : index === activeVideo - 1 || index === activeVideo + 1
                       ? 'scale-90 opacity-70'
                       : 'scale-75 opacity-40'
