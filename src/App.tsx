@@ -112,8 +112,8 @@ function App() {
             </div>
             <div className="relative h-[500px] w-full rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
-                alt="Business professional"
+                src="/src/public/heroimage.webp"
+                alt="Muito mais do que tráfego pago. Fuja da gestão de tráfego tradicional"
                 className="absolute inset-0 w-full h-full object-cover rounded-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
