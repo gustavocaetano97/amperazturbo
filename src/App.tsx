@@ -112,7 +112,7 @@ function App() {
             </div>
             <div className="relative h-[500px] w-full rounded-2xl overflow-hidden">
               <img
-                src="/src/public/heroimage.webp"
+                src="/heroimage.webp"
                 alt="Muito mais do que tráfego pago. Fuja da gestão de tráfego tradicional"
                 className="absolute inset-0 w-full h-full object-cover rounded-2xl"
               />
