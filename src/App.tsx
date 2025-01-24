@@ -175,7 +175,6 @@ function App() {
 
           <div className="max-w-6xl mx-auto">
             <div className="relative">
-              <div className="absolute top-1/2 left-8 right-8 h-1 bg-yellow-400/20 -translate-y-1/2"></div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
                 {storySteps.map((step, index) => (
                   <div key={index} className="relative">
